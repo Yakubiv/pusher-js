@@ -167,7 +167,7 @@ var pusher = new Pusher(API_KEY, { cluster: "eu" });
 
 #### `disableStats` (Boolean)
 
-Disables stats collection, so that connection metrics are not submitted to Pusher’s servers.
+Disables stats collection, so that connection metrics are not submitted to Pusher’s servers. These stats are used for internal monitor and does not affect the account stats.
 
 #### `enabledTransports` (Array)
 
